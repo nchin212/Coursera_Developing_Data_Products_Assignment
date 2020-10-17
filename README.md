@@ -10,3 +10,4 @@ Your webpage must contain the date that you created the document, and it must co
 
 ## Submission
 
+The webpage can be found [here](https://nchin212.github.io/Coursera_Developing_Data_Products_Assignment/Map.html)

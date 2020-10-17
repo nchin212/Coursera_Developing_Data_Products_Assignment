@@ -15,10 +15,12 @@ df <- data.frame( lat = c(1.3483),
                   lng = c(103.6831)
 )
 
+sites <- "<a href='https://www.ntu.edu.sg/Pages/home.aspx'>Nanyang Technological University</a>"
+    
 df %>% 
     leaflet() %>%
     addTiles() %>%
-    addMarkers(popup = "Nanyang Technological University")
+    addMarkers(popup = sites)
 ```
 
 

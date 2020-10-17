@@ -1,0 +1,28 @@
+---
+title: "Map created with Leaflet"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## October 17, 2020
+
+```{r}
+library(leaflet)
+df <- data.frame( lat = c(1.3483),
+                  lng = c(103.6831)
+)
+
+df %>% 
+    leaflet() %>%
+    addTiles() %>%
+    addMarkers(popup = "Nanyang Technological University")
+```
+
+
+
+
+
+

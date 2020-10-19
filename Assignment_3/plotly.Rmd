@@ -1,0 +1,19 @@
+---
+title: "Week 3 Assignment"
+author: Nicholas Chin Wei Lun
+date: "19 October, 2020"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+## airquality
+
+```{r}
+data(airquality)
+library(plotly)
+plot_ly(airquality, x=~Wind, y=~Solar.R, z=~Ozone, type="scatter3d", color=~Temp)
+```
+
